@@ -1,0 +1,69 @@
+{
+  "Folder": {
+    "modalTitle": "home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Card": {
+    "aboutMe": "About Me",
+    "description": {
+      "part1": "My name is Guilherme Galvão, a 26-year-old developer from São Bernardo do Campo - SP. I have experience with ",
+      "tech": "React, Next.js, TypeScript, Node.js, and Docker",
+      "part2": ". I also work in UI/UX and design, with prototyping in ",
+      "designTools": "Figma and Photoshop",
+      "part3": ". I work on projects focused on performance, scalability, and best practices."
+    }
+  },
+  "Skills": {
+    "skills": "skills",
+    "languages": "Languages",
+    "frameworks": "Frameworks / Libraries",
+    "database": "Database",
+    "devops": "DevOps",
+    "tools": "Tools"
+  },
+  "Contact": {
+    "contact": "contact",
+    "description": "You can contact me through this form, but if you prefer, my professional email is:",
+    "copied": "Copied!",
+    "name": "Name",
+    "requiredName": "Please enter your name.",
+    "email": "Email",
+    "requiredEmail": "Please enter your email.",
+    "invalidEmail": "Invalid email.",
+    "message": "Message",
+    "requiredMessage": "Please enter your message.",
+    "minMessage": "Minimum of 20 characters.",
+    "submit": "Send message",
+    "sending": "Sending...",
+    "sent": "Message sent!"
+  },
+  "Edit": {
+    "edit": "edit",
+    "name": "Name",
+    "color": "Color"
+  },
+  "Projects": {
+    "goBack": "Go back",
+    "personal": "PERSONAL PROJECTS",
+    "professional": "PROFESSIONAL PROJECTS",
+    "comingSoon": "Coming soon",
+    "visit": "Visit",
+    "procicsDesc": "Company landing page.",
+    "procicsRole": "Front-end Developer",
+    "kastorDesc": "General services SaaS platform.",
+    "kastorRole": "Front-end and UI/UX Developer"
+  },
+  "About": {
+    "goBack": "Go back",
+    "aboutMe": "ABOUT ME",
+    "preview": "(click on the thumbnails to see the full illustration)",
+    "line1": "My name is Guilherme, I am 26 years old and I live in São Paulo, Brazil. I currently work as a Front-end Developer, but I also have experience in Design and Illustration.",
+    "line2": "Between 2020 and 2023, I worked on illustration projects, creating game art and original characters.",
+    "line3": "In addition to illustrations, I also work on Web and Mobile app development, creating prototypes in Figma and Photoshop to deliver functional and well-crafted interfaces.",
+    "line4": "I enjoy learning new techniques, exploring creativity, and combining development and design in a way that makes sense in practice.",
+    "line5": "Feel free to reach out to me, whether for professional matters or just to have a chat :)"
+  }
+}

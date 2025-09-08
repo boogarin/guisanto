@@ -1,0 +1,69 @@
+{
+  "Folder": {
+    "modalTitle": "início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "Card": {
+    "aboutMe": "Sobre mim",
+    "description": {
+      "part1": "Me chamo Guilherme Galvão, desenvolvedor de 26 anos em São Bernardo do Campo - SP. Tenho experiência com ",
+      "tech": "React, Next.js, TypeScript, Node.js e Docker",
+      "part2": ", além de integração de APIs e testes automatizados. Também atuo em UI/UX e design, com prototipação no ",
+      "designTools": "Figma e Photoshop",
+      "part3": ". Trabalho em projetos focados em performance, escalabilidade e boas práticas."
+    }
+  },
+  "Skills": {
+    "skills": "habilidades",
+    "languages": "Linguagens",
+    "frameworks": "Frameworks / Bibliotecas",
+    "database": "Banco de dados",
+    "devops": "DevOps",
+    "tools": "Ferramentas"
+  },
+  "Contact": {
+    "contact": "contato",
+    "description": "Você pode entrar em contato comigo através desse formulário, mas caso prefira, meu e-mail para contato profissional é:",
+    "copied": "Copiado!",
+    "name": "Nome",
+    "requiredName": "Por favor, insira seu nome.",
+    "email": "E-mail",
+    "requiredEmail": "Por favor, insira seu e-mail.",
+    "invalidEmail": "E-mail inválido.",
+    "message": "Mensagem",
+    "requiredMessage": "Por favor, insira sua mensagem.",
+    "minMessage": "Mínimo de 20 caractéres.",
+    "submit": "Enviar mensagem",
+    "sending": "Enviando...",
+    "sent": "Mensagem enviada!"
+  },
+  "Edit": {
+    "edit": "editar",
+    "name": "Nome",
+    "color": "Cor"
+  },
+  "Projects": {
+    "goBack": "Voltar",
+    "personal": "PROJETOS PESSOAIS",
+    "professional": "PROJETOS PROFISSIONAIS",
+    "comingSoon": "Em breve",
+    "visit": "Visitar",
+    "procicsDesc": "Landing page da empresa.",
+    "procicsRole": "Desenvolvedor Front-end",
+    "kastorDesc": "Plataforma SaaS de serviços gerais.",
+    "kastorRole": "Desenvolvedor Front-end e UI/UX"
+  },
+  "About": {
+    "goBack": "Voltar",
+    "aboutMe": "SOBRE MIM",
+    "preview": "(clique nas miniaturas para ver a ilustração completa)",
+    "line1": "Meu nome é Guilherme, tenho 26 anos e moro em São Paulo, Brasil. Atualmente trabalho como Desenvolvedor Front-end, mas também tenho experiência em Design e Ilustração.",
+    "line2": "Entre 2020 e 2023, realizei alguns trabalhos voltados para ilustração, criando artes de jogos e personagens originais.",
+    "line3": "Além das ilustrações, também trabalho com desenvolvimento de aplicativos Web e Mobile, criando protótipos no Figma e Photoshop para entregar interfaces funcionais e bem-feitas.",
+    "line4": "Gosto de aprender novas técnicas, explorar a criatividade e unir desenvolvimento e design de forma que faça sentido na prática.",
+    "line5": "Fique à vontade para entrar em contato comigo, seja para assuntos profissionais ou apenas para bater um papo :)"
+  }
+}
