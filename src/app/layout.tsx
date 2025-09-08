@@ -4,6 +4,11 @@ import ClientProviders from "./providers";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
+export const metadata = {
+  title: "Guilherme Galvão",
+  description: "Fullstack Dev - Website",
+};
+
 export default function RootLayout({
   children,
 }: {

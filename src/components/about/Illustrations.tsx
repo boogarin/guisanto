@@ -122,7 +122,7 @@ export default function Illustrations() {
                   src={selected.full}
                   alt="Full"
                   fill
-                  className="object-contain rounded-xl shadow-lg"
+                  className="object-contain rounded-xl"
                 />
               </motion.div>
             </motion.div>
