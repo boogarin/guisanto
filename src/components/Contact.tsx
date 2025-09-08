@@ -34,6 +34,18 @@ export default function Contact({ isOpen, onClose }: Props) {
     setIsMobile(isMobileDevice);
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
   const handleCopy = () => {
     navigator.clipboard.writeText("guisanto@proton.me");
     setCopied(true);
@@ -66,7 +78,7 @@ export default function Contact({ isOpen, onClose }: Props) {
         className={`fixed cursor-none z-100 bg-white dark:bg-[#29292b] 
           ${
             isMobile
-              ? "bottom-0 left-0 w-full h-[80%] rounded-t-2xl shadow-lg"
+              ? "bottom-0 left-0 w-full h-[85%] rounded-t-2xl shadow-lg"
               : "top-20 left-20 sm:w-md border-[0.5px] border-[#cecece] rounded-2xl shadow-md dark:border-[#504f4f]"
           }`}
       >
@@ -79,7 +91,7 @@ export default function Contact({ isOpen, onClose }: Props) {
             }`}
           >
             <div className="flex gap-3 items-center">
-              <IconMail className="text-white dark:text-[#8850ff]" />
+              <IconMail className="text-white" />
               <span className="text-lg text-white tracking-widest font-semibold">
                 {t("contact")}
               </span>
@@ -95,7 +107,7 @@ export default function Contact({ isOpen, onClose }: Props) {
             </button>
           </div>
 
-          <div className="h-[80%] overflow-y-auto">
+          <div className="h-[90%] overflow-y-auto">
             <div
               className={`flex flex-col w-full p-6 pb-8 px-8 gap-4 flex-1 overflow-y-auto`}
             >

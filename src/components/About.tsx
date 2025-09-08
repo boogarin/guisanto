@@ -32,7 +32,7 @@ export default function About() {
   });
 
   return (
-    <div className="flex flex-col w-full min-h-screen lg:overflow-y-auto lg:scrollbar-hide px-5 lg:px-0 pt-22 sm:pt-[6.65rem] lg:pb-20 bg-[#FFFFFF80]">
+    <div className="flex flex-col w-full min-h-screen lg:overflow-y-auto lg:scrollbar-hide px-5 lg:px-0 pt-22 sm:pt-[6.65rem] lg:pb-20 bg-[#FFFFFF80] dark:bg-[#73737300]">
       <div className="w-full sm:w-2xl md:w-3xl 3xl:w-4xl mx-auto flex flex-col gap-5">
         <button
           onClick={() => {

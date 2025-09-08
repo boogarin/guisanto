@@ -87,6 +87,18 @@ export default function Skills({ isOpen, onClose }: Props) {
     setIsMobile(isMobileDevice);
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   return (
@@ -112,7 +124,7 @@ export default function Skills({ isOpen, onClose }: Props) {
         className={`fixed cursor-none z-100 bg-white dark:bg-[#29292b] dark:border-[#504f4f] 
           ${
             isMobile
-              ? "bottom-0 left-0 w-full h-[80%] rounded-t-2xl shadow-lg"
+              ? "bottom-0 left-0 w-full h-[85%] rounded-t-2xl shadow-lg"
               : "top-12 left-10 sm:w-md border-[0.5px] border-[#cecece] dark:border-[#504f4f] rounded-2xl shadow-md"
           }`}
       >
@@ -123,7 +135,7 @@ export default function Skills({ isOpen, onClose }: Props) {
             className={`flex w-full justify-between items-center p-3 px-5 rounded-t-xl ${isMobile ? "bg-[#01baef]" : "bg-[#01baef] dark:bg-[#373739]"}`}
           >
             <div className="flex gap-3 items-center">
-              <IconCode className="text-white dark:text-[#01baef]" />
+              <IconCode className="text-white" />
               <span className="text-lg text-white tracking-widest font-semibold">
                 {t("skills")}
               </span>
@@ -139,7 +151,7 @@ export default function Skills({ isOpen, onClose }: Props) {
             </button>
           </div>
 
-          <div className="h-[80%] overflow-y-auto">
+          <div className="h-[90%] overflow-y-auto">
             <div className="flex flex-col w-full p-5 pb-7 px-8 gap-1.5 overflow-y-auto">
               <span className="text-[#4B4B4C] dark:text-[#FFFFFF85] font-semibold">
                 {t("languages")}

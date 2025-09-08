@@ -147,7 +147,7 @@ export default function Portfolio() {
         >
           <div className="relative w-20 h-20">
             <Image
-              src="/images/iMatchIcon.png"
+              src="/images/imatchIcon.png"
               alt="iMatch"
               fill
               className="object-contain"

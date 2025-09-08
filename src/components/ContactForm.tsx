@@ -56,7 +56,7 @@ export default function ContactForm() {
   };
 
   return (
-    <motion.div className="relative" layout>
+    <motion.div className="relative -mt-3" layout>
       <AnimatePresence mode="wait">
         {!isSubmitted ? (
           <motion.form
