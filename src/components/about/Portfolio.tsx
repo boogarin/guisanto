@@ -35,7 +35,7 @@ export default function Portfolio() {
         >
           <div className="flex ml-5 -mt-20">
             {jobapp.map((src, i) => (
-              <img key={i} src={src} className="w-60" alt={`Column${i}`} />
+              <img key={i} src={src} className="w-50" alt={`Column${i}`} />
             ))}
           </div>
 
@@ -44,7 +44,7 @@ export default function Portfolio() {
               <img
                 key={i + jobapp.length}
                 src={src}
-                className="w-60"
+                className="w-50"
                 alt={`Column${i}`}
               />
             ))}
@@ -55,7 +55,7 @@ export default function Portfolio() {
               <img
                 key={i + jobapp.length * 2}
                 src={src}
-                className="w-60"
+                className="w-50"
                 alt={`Column${i}`}
               />
             ))}
@@ -70,7 +70,7 @@ export default function Portfolio() {
             );
             play();
           }}
-          className="cursor-none absolute top-15 right-10 lg:right-10 lg:top-5 left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0 w-20 h-28 flex flex-col items-center"
+          className="cursor-none absolute top-15 right-10 lg:right-7 lg:top-5 left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0 w-20 h-28 flex flex-col items-center"
         >
           <div className="relative w-20 h-20">
             <Image
@@ -108,7 +108,7 @@ export default function Portfolio() {
         >
           <div className="flex ml-5 -mt-28">
             {imatch.map((src, i) => (
-              <img key={i} src={src} className="w-60" alt={`Column${i}`} />
+              <img key={i} src={src} className="w-50" alt={`Column${i}`} />
             ))}
           </div>
 
@@ -117,7 +117,7 @@ export default function Portfolio() {
               <img
                 key={i + imatch.length}
                 src={src}
-                className="w-60"
+                className="w-50"
                 alt={`Column${i}`}
               />
             ))}
@@ -128,7 +128,7 @@ export default function Portfolio() {
               <img
                 key={i + imatch.length * 2}
                 src={src}
-                className="w-60"
+                className="w-50"
                 alt={`Column${i}`}
               />
             ))}
@@ -143,7 +143,7 @@ export default function Portfolio() {
             );
             play();
           }}
-          className="cursor-none absolute top-15 right-10 lg:right-10 lg:top-5 left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0 w-20 h-28 flex flex-col items-center"
+          className="cursor-none absolute top-15 right-10 lg:right-7 lg:top-5 left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0 w-20 h-28 flex flex-col items-center"
         >
           <div className="relative w-20 h-20">
             <Image
