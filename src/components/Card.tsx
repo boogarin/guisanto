@@ -48,13 +48,14 @@ export default function Card() {
           transition={{ delay: 0.6, duration: 2 }}
           className="flex gap-3 md:gap-5 p-8 max-w-lg"
         >
-          <Image
-            src="/avatar.jpeg"
+          <div className="h-24 w-24 relative">
+            <Image
+            src="/avatar.jpg"
             alt="Avatar"
-            width={90}
-            height={90}
-            className="object-cover rounded-xl"
+            fill
+            className="object-contain rounded-xl"
           />
+          </div>
           <div className="flex flex-col justify-between">
             <div>
               <span className="text-base md:text-lg font-semibold text-[#4B4B4C] dark:text-white">

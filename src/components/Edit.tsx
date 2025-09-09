@@ -85,6 +85,7 @@ export default function Edit({ isOpen, onClose }: Props) {
                 </span>
                 <input
                   type="text"
+                  maxLength={24}
                   value={cursorName}
                   onChange={(e) => setCursorName(e.target.value)}
                   style={{ textAlign: "right" }}

@@ -106,13 +106,13 @@ export default function Portfolio() {
             repeat: Infinity,
           }}
         >
-          <div className="flex ml-5 -mt-28">
+          <div className="flex ml-5 -mt-24">
             {imatch.map((src, i) => (
               <img key={i} src={src} className="w-50" alt={`Column${i}`} />
             ))}
           </div>
 
-          <div className="flex ml-5 -mt-28">
+          <div className="flex ml-5 -mt-24">
             {imatch.map((src, i) => (
               <img
                 key={i + imatch.length}
@@ -123,7 +123,7 @@ export default function Portfolio() {
             ))}
           </div>
 
-          <div className="flex ml-5 -mt-28">
+          <div className="flex ml-5 -mt-24">
             {imatch.map((src, i) => (
               <img
                 key={i + imatch.length * 2}
