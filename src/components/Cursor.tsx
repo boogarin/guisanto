@@ -41,7 +41,7 @@ export default function Cursor() {
     <motion.div
       className="fixed top-0 left-0 -ml-2 mt-1 flex flex-col items-center pointer-events-none z-[9998]"
       animate={{ x: mousePosition.x - 8, y: mousePosition.y - 8 }}
-      transition={{ type: "spring", stiffness: 600, damping: 40 }}
+      transition={{ type: "spring", stiffness: 800, damping: 40 }}
     >
       {isHovering ? (
         <svg

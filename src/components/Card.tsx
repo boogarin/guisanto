@@ -50,11 +50,11 @@ export default function Card() {
         >
           <div className="h-24 w-24 relative">
             <Image
-            src="/avatar.jpg"
-            alt="Avatar"
-            fill
-            className="object-contain rounded-xl"
-          />
+              src="/avatar.jpeg"
+              alt="Avatar"
+              fill
+              className="object-contain rounded-xl"
+            />
           </div>
           <div className="flex flex-col justify-between">
             <div>
