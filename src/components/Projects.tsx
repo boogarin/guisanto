@@ -51,7 +51,8 @@ export default function Projects() {
         </span>
         <div className="flex flex-col gap-5 mt-5 pb-10 lg:pb-0">
           <Procics />
-          <Kastor />
+          {/*           <Kastor />
+           */}
         </div>
       </div>
     </div>
